@@ -3,8 +3,9 @@ public class Cliente {
 
 	public int senha;
 	public String nome;
-	public String endereco;
 	public String email;
+	public String endereco;
+	
 	
 	public Cliente(int senha, String nome, String endereco) {
 		this.senha = senha;
