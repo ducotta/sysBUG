@@ -1,8 +1,8 @@
 
 public class PessoaJuridica extends Cliente{
 	
-	public String cnpj;
-	public String razaoSocial;
+	private String cnpj;
+	private String razaoSocial;
 
 	public PessoaJuridica(int senha, String nome, String endereco, String cnpj) {
 		super(senha, nome, endereco);

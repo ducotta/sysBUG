@@ -1,10 +1,10 @@
 
 public class Conta extends SysBUG{
 	
-	public int numero;
-	public int operacao;
-	public String tipo;
-	public Double saldo;
+	private int numero;
+	private int operacao;
+	private String tipo;
+	private Double saldo;
 	
 	public Conta(int numero, int operacao) {
 		super();

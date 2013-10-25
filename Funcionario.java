@@ -1,12 +1,12 @@
 
 public class Funcionario {
 	
-	public String nome;
-	public String telefone;
-	public String endereco;
-	public String cpf;
-	public String cargo;
-	public int senhaFuncionario;
+	private String nome;
+	private String telefone;
+	private String endereco;
+	private String cpf;
+	private String cargo;
+	private int senhaFuncionario;
 
 	public Funcionario(String nome, String telefone, String endereco,
 			String cpf, String cargo, int senha) {

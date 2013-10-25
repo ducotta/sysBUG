@@ -1,7 +1,7 @@
 
 public class PessoaFisica extends Cliente{
 
-	public String cpf;
+	private String cpf;
 
 	public PessoaFisica(int senha, String nome, String endereco, String cpf) {
 		super(senha, nome, endereco);

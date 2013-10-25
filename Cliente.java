@@ -1,10 +1,10 @@
 
 public class Cliente {
 
-	public int senha;
-	public String nome;
-	public String email;
-	public String endereco;
+	private int senha;
+	private String nome;
+	private String email;
+	private String endereco;
 	
 	
 	public Cliente(int senha, String nome, String endereco) {
