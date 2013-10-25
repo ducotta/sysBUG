@@ -5,7 +5,6 @@ public class Cliente {
 	public String nome;
 	public String endereco;
 	public String email;
-	public Double saldo;
 	
 	public Cliente(int senha, String nome, String endereco) {
 		this.senha = senha;
@@ -44,14 +43,4 @@ public class Cliente {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-	public Double getSaldo() {
-		return saldo;
-	}
-
-	public void setSaldo(Double saldo) {
-		this.saldo = saldo;
-	}
-	
-	
 }
