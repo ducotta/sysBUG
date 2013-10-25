@@ -44,5 +44,8 @@ public class Conta extends SysBUG{
 		this.saldo = saldo;
 	}
 
+	public String toString(){
+		return "Operacao " + operacao + "/tNumero " + numero + "/tSaldo " + saldo; 
+	}
 	
 }
