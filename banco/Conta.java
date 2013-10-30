@@ -1,6 +1,6 @@
 package banco;
 
-public class Conta extends SysBUG{
+public class Conta {
 	
 	private int numero;
 	private int operacao;
