@@ -6,7 +6,7 @@ public class SysBUG {
 	
 	private Cliente cliente;
 	private Funcionario funcionario;
-	private ArrayList<Conta> listaConta;
+	private ArrayList<Conta> listaDeConta = new ArrayList<Conta>();
 	
 	public SysBUG() {
 		super();
@@ -28,16 +28,12 @@ public class SysBUG {
 		this.funcionario = funcionario;
 	}
 
-	public ArrayList<Conta> getConta() {
-		return listaConta;
+	public ArrayList<Conta> getListaDeContas() {
+		return listaDeConta;
 	}
 
-	public void setConta(ArrayList<Conta> conta) {
-		this.listaConta = conta;
-	}
-	
-	void adicionar(Conta umaConta){
-		listaConta.add(umaConta);
+	public void setListaDeContas(ArrayList<Conta> conta) {
+		this.listaDeConta = conta;
 	}
 	
 }
