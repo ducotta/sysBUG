@@ -57,6 +57,13 @@ public class Funcionario {
 		this.senhaFuncionario = senha;
 	}
 	
+	public void autenticaSenha(int senha){
+		if(senhaFuncionario == senha){
+			System.out.println("Acesso Permitido");
+		}else{
+			System.out.println("Acesso negado!");
+		}
+	}
 	
 
 }
